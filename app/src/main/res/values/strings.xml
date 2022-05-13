@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Persistence</string>
+    <string name="form_title">Register</string>
+    <string name="label_username">Username</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="submit_value">Submit</string>
 </resources>
