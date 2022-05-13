@@ -32,10 +32,15 @@ public class activity_read extends AppCompatActivity {
 
         TextView list = findViewById(R.id.dataList);
 
+        list.setText("");
+
         for(int i = 0; i < users.size(); i++) {
-            String data = users.get(i).toString();
+            User user = users.get(i);
             String text = list.getText().toString();
-            text += data+"\n";
+            text += "Username: "+user.getUsername()
+                    +" Email: "+user.getEmail()
+                    +" Password: "+user.getPassword()
+                    +"\n";
             list.setText(text);
         }
 
