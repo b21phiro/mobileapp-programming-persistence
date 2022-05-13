@@ -4,5 +4,6 @@
     <string name="label_username">Username</string>
     <string name="label_email">Email</string>
     <string name="label_password">Password</string>
-    <string name="submit_value">Submit</string>
+    <string name="write_value">Write</string>
+    <string name="read_value">Read</string>
 </resources>
